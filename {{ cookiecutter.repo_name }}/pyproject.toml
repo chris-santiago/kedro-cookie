@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [tool.kedro]
 package_name = "{{ cookiecutter.python_package }}"
 project_name = "{{ cookiecutter.project_name }}"
-kedro_init_version = "{{ cookiecutter.kedro_version }}"
+project_version = "{{ cookiecutter.kedro_version }}"
 
 
 [project]
@@ -75,7 +75,7 @@ dev = [
 ]
 
 [project.scripts]
-"{{ cookiecutter.repo_name }} = {{ cookiecutter.python_package }}.__main__:main"
+{{ cookiecutter.repo_name }} = "kedro_test.__main__:main"
 
 [project.urls]
 "Sourcecode" = "https://github.com/chris-santiago/{{cookiecutter.python_package}}"
