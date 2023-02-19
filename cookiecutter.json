@@ -1,0 +1,14 @@
+{
+  "project_name": "New Kedro Project",
+  "repo_name": "{{ cookiecutter.project_name.strip().replace(' ', '-').replace('_', '-').lower() }}",
+  "python_package": "{{ cookiecutter.project_name.strip().replace(' ', '_').replace('-', '_').lower() }}",
+  "kedro_version": "{{ cookiecutter.kedro_version }}",
+  "python_requires": "3.9",
+  "project_author": "Chris Santiago",
+  "author_email": "cjsantiago@gatech.edu",
+  "github_username": "chris-santiago",
+  "github_owner": "{{cookiecutter.github_username}}",
+  "project_short_description": "Python Boilerplate contains all the boilerplate you need to create a Python package.",
+  "project_github_url": "https://github.com/{{cookiecutter.github_owner}}/{{cookiecutter.repo_name}}",
+  "project_github_pip" : "git+https://github.com/{{cookiecutter.github_owner}}/{{cookiecutter.repo_name}}.git"
+}
