@@ -7,3 +7,17 @@ project_name:
   error_message: |
     It must contain only alphanumeric symbols, spaces, underscores and hyphens and
     be at least 2 characters long.
+python_requires:
+  title: Python Version
+  text: |
+    Enter the Python version used to build this project.
+"project_author":
+  title: Project Author
+"author_email":
+  title: Author Email
+"github_username":
+  title: Github Username
+"github_owner":
+  title: Github Owner
+"project_short_description":
+  title: Short Project Description
